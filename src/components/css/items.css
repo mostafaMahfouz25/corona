@@ -1,0 +1,40 @@
+.item
+{
+    transition: all 0.4s linear;
+    
+}
+.item:hover 
+{
+    background-color: #DC3545;
+    color: #fff;
+
+}
+.item .badge
+{
+    border: 2px solid transparent;
+}
+.item:hover  .badge
+{
+    border: 2px solid #fff;
+}
+.item h3
+{
+    text-transform: uppercase;
+}
+.item h5
+{
+    text-transform: capitalize;
+}
+
+.item img 
+{
+    width: 250px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border: 3px solid transparent;
+}
+.item:hover img 
+{
+    border: 3px solid #fff;
+}
